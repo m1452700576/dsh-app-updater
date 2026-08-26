@@ -1,0 +1,10 @@
+# One package: host half (check/download routes) + browser half
+# (sidebar footer button + result panel). Install into a dsh profile and
+# restart dsh web to load.
+- insert:
+    - id: dsh-app-updater
+      name: '@local/dsh-app-updater'
+      config:
+        sourceType: github
+        githubRepo: steven-kid/deepseek-harness-desktop
+        downloadsDir: ''
