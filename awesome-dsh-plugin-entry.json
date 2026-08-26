@@ -1,0 +1,12 @@
+{
+  "name": "dsh-app-updater",
+  "owner": "m1452700576",
+  "url": "https://github.com/m1452700576/dsh-app-updater",
+  "category": "tool",
+  "description": {
+    "en": "Sidebar button that checks whether DSH has a newer release and auto-downloads/opens the installer, with live progress, a minimizable panel, download mirrors for CN, and security checks (source confirm, private-IP block, SHA-256).",
+    "zh": "侧边栏按钮：检测 DSH 是否有新版本并自动下载/打开安装包。带实时进度、可最小化面板、国内镜像加速，以及下载安全校验（下载前来源确认、私网地址拦截、SHA-256 校验）。"
+  },
+  "install": "dsh plugin --profile web add github:m1452700576/dsh-app-updater",
+  "added": "2026-08-25"
+}
