@@ -16,7 +16,10 @@
     "LICENSE"
   ],
   "scripts": {
-    "build": "echo no-build-step"
+    "build": "echo no-build-step",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:coverage": "echo \"Error: no test specified\" && exit 1",
+    "test:watch": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
